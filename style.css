@@ -1,16 +1,31 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-  
+  font-family: 'Poppins', sans-serif; 
 }
+
+body h1{
+  font-size: 50px;
+  font-weight:900;
+}
+
+body p{
+  font-size: large;
+  padding-bottom: 40px;
+}
+
+.final-section{
+  padding: 100px;
+}
+
 .top-section{
   width: 100%;
-  background-size:cover;
-  
-  background-image: url(donation.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),url(flood5.jpg);
   background-repeat: no-repeat;
+  background-size:cover;
 }
+
 .top-item{
   width: 50%;
   margin-left: 25%;
@@ -18,9 +33,11 @@ body{
   padding-top: 15%;
   padding-bottom: 15%;
   text-align: center;
+  color: rgb(1, 255, 255);
+}
+
+.top-item p{
   color: white;
- 
- 
 }
 
 #btn{
@@ -29,12 +46,6 @@ body{
   background-color: salmon;
   border-radius: 5px;
   padding: 10px 40px;
-  
-
-}
-.donate-section{
-  width: 100%;
-  
 }
 
 .donate-today{
@@ -42,50 +53,39 @@ body{
   margin-left: 25%;
   margin-right: 25%;
   text-align: center;
-  
-  
 }
 
 .donate-amount{
   width:100%;
   display: flex;
   justify-content: center;
-  
-  
-  
-  
 }
+
 .donate-item{
   margin-right: 1%;
   padding: 60px;
   background-color: rgb(226, 218, 218);
   border-radius: 10%;
-  
-  
 }
+
 #money{
   border: 2px solid blue;
   background-color: rgb(168, 168, 211);
 }
-.form-section{
-  width: 100%;
-  
-}
-#form{
 
+#form{
   width: 40%;
   margin-left: 30%;
   margin-right: 20%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   margin-top: 5%;
-  
   text-align: center;
   padding-top :20px;
-  font-size: 10px;
+  font-size: 30px;
   border:none;
   border-bottom: 2px solid gray;
-  
 }
+
 #btn2{
   text-decoration: none;
   color: white;
@@ -94,42 +94,81 @@ body{
   padding: 10px 40px;
   margin-left: 45%;
   margin-bottom: 2%;
-  
-  
 }
-.card-item{
-  display: flex;
-}
-.quarter-width{
-  width: 30%;
-  margin:1.5%;
-  background-color: aqua;
-  padding: 40px;
-  justify-content: space-evenly;
-}
-.final-section{
-  padding: 100px;
-}
+
 .donate-plan{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
   padding-top: 50px;
 }
+
+.card-item{
+  display: flex;
+  text-align: center;
+}
+
+.quarter-width1{
+  width: 30%;
+  margin:1.5%;
+  background-color: rgba(193, 214, 196,0.3);
+  padding: 40px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.quarter-width2{
+  width: 30%;
+  margin:1.5%;
+  background-color: rgba(220, 214, 221,0.3);
+  padding: 40px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.quarter-width3{
+  width: 30%;
+  margin:1.5%;
+  background-color: rgb(226, 219, 213,0.3);
+  padding: 40px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+#icon{
+  font-size: 60px;
+}
+
 .support-section{
   display: flex;
   width: 100%;
 }
+
 .support-item{
   width: 40%;
-  padding-left: 20px;
-
-
+  padding-top: 40px;
 }
+
 .support-item img{
   width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 50px;
+  background-position: right;
 }
+
+.support-section2{
+  width: 50%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  box-shadow: 1px 2px 9px 4px rgba(69,56,56,0.75);
+}
+
+.support-section2 img{
+  width: 100%;
+}
+
 #btn3{
   text-decoration: none;
   color: white;
@@ -137,46 +176,55 @@ body{
   border-radius: 5px;
   padding: 10px 40px;
 }
+
+.buttom-section{
+  background-color: rgba(199, 235, 238,0.2);
+  padding-bottom: 100px;
+}
+
 .bottom-item{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
   padding-top: 50px;
 }
+
 .form{
   display: flex;
   position: relative;
-  margin:5% 25%;
-  background-color: rgb(202, 202, 181);
+  margin:0% 20%;
+  background-color: rgba(202, 202, 181,0.5);
   padding: 5% 10%;
-  
 }
 
 #form-input{
-  width: 30%;
+  width: 40%;
   padding: 10px;
-  outline: none;
-  margin-left: 30%;
-  border: 1px solid red;
-
+  border: none;
+  margin-left: 20%;
+  background-color: rgb(238, 237, 237);
 }
+
 #form-button{
   width: 20%;
   padding: 10px;
-  outline: none;
-  border: 1px solid red;
+  border: none;
   background-color: red;
-  
- 
-
+  color: white;
 }
+
 footer{
   text-align:center;
   background-color: black;
   padding: 40px;
   color: white;
 }
+
 footer h1{
-  color: orangered;
-  
+  color: red;
+  font-family: 'Splash', cursive;
+  font-weight: 400;
 }
 
 
