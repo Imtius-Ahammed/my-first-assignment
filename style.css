@@ -15,7 +15,7 @@ body p{
   padding-bottom: 40px;
 }
 
-.final-section{
+.total-section{
   padding: 100px;
 }
 
@@ -74,7 +74,7 @@ body p{
   background-color: rgb(168, 168, 211);
 }
 
-#form{
+#input{
   width: 40%;
   margin-left: 30%;
   margin-right: 20%;
