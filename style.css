@@ -149,12 +149,12 @@ body p{
 
 .support-item{
   width: 40%;
-  padding-top: 40px;
+  padding:100px;
 }
 
 .support-item img{
   width: 100%;
-  padding: 50px;
+  padding-left:  50px;
   
 }
 
